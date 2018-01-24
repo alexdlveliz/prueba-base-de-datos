@@ -5,6 +5,9 @@
  */
 package prueba_bases_1;
 
+import java.util.Scanner;
+import org.apache.commons.codec.digest.DigestUtils;
+
 /**
  *
  * @author alexd
@@ -16,6 +19,7 @@ public class Prueba_bases_1 {
      */
     public static void main(String[] args) 
     {
+        Scanner entrada = new Scanner(System.in);
         System.out.println("Hola mundo");
         System.out.println("Hola alex");
         System.out.println("Intento poner un mensaje para que todos lo miren");
@@ -23,6 +27,11 @@ public class Prueba_bases_1 {
         {
             System.out.println("Esto me gusta");
         }
+        
+        System.out.print("Ingrese palabra a encriptar: ");
+        String textoSinEncriptar = entrada.nextLine();
+        System.out.println("Texto sin encriptar: " + textoSinEncriptar);
+        String textoEncriptadoConMD5=DigestUtils.md5Hex(textoSinEncriptar); 
+        System.out.println("Texto Encriptado con MD5 : "+textoEncriptadoConMD5);
     }
-    
 }
