@@ -13,4 +13,5 @@ public class Estudiante
 {
     private String nombre;
     private String carne;
+    private byte algo;
 }
