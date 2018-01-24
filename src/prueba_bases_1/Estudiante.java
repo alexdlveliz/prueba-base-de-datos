@@ -12,4 +12,5 @@ package prueba_bases_1;
 public class Estudiante 
 {
     private String nombre;
+    private String carne;
 }
