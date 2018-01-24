@@ -7,7 +7,7 @@ package prueba_bases_1;
 
 import java.util.Scanner;
 import org.apache.commons.codec.digest.DigestUtils;
-
+import javax.swing.JOptionPane;
 /**
  *
  * @author alexd
@@ -32,6 +32,6 @@ public class Prueba_bases_1 {
         String textoSinEncriptar = entrada.nextLine();
         System.out.println("Texto sin encriptar: " + textoSinEncriptar);
         String textoEncriptadoConMD5=DigestUtils.md5Hex(textoSinEncriptar); 
-        System.out.println("Texto Encriptado con MD5 : "+textoEncriptadoConMD5);
+        JOptionPane.showMessageDialog(null, "Texto Encriptado con MD5 : "+textoEncriptadoConMD5);
     }
 }
