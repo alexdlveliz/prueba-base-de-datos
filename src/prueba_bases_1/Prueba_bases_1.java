@@ -19,6 +19,10 @@ public class Prueba_bases_1 {
         System.out.println("Hola mundo");
         System.out.println("Hola alex");
         System.out.println("Intento poner un mensaje para que todos lo miren");
+        for(int i = 0; i < 5; i++)
+        {
+            System.out.println("Esto me gusta");
+        }
     }
     
 }
