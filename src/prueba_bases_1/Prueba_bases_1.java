@@ -33,5 +33,6 @@ public class Prueba_bases_1 {
         System.out.println("Texto sin encriptar: " + textoSinEncriptar);
         String textoEncriptadoConMD5=DigestUtils.md5Hex(textoSinEncriptar); 
         JOptionPane.showMessageDialog(null, "Texto Encriptado con MD5 : "+textoEncriptadoConMD5);
+        System.out.println("Una última vez");
     }
 }
