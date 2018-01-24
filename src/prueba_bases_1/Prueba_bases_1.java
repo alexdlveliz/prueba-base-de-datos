@@ -18,6 +18,7 @@ public class Prueba_bases_1 {
     {
         System.out.println("Hola mundo");
         System.out.println("Hola alex");
+        System.out.println("Intento poner un mensaje para que todos lo miren");
     }
     
 }
