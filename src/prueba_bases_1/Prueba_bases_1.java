@@ -1,3 +1,4 @@
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -18,6 +19,7 @@ public class Prueba_bases_1 {
     {
         System.out.println("Hola mundo");
         System.out.println("Hola alex");
+        System.out.println("Hola una vez más");
     }
     
 }
